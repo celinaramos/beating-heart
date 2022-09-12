@@ -6,7 +6,7 @@ basic.forever(function () {
         . # # # .
         . . # . .
         `)
-    basic.pause(500)
+    basic.pause(2000)
     basic.showLeds(`
         . . . . .
         . # . # .
@@ -14,5 +14,6 @@ basic.forever(function () {
         . . # . .
         . . . . .
         `)
-    basic.pause(500)
+    basic.pause(100)
+    basic.showIcon(IconNames.Fabulous)
 })
